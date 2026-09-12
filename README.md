@@ -11,7 +11,7 @@ Projeto desenvolvido para extrair inteligência de negócios de um banco de dado
 - **Saúde Logística:** A operação possui altíssima confiabilidade, com 96 mil pedidos entregues, esmagando a proporção de cancelamentos.
 
 ## 📈 O Dashboard
-![Dashboard da Operação Olist](painel_grafico.png)
+![Dashboard Olist](painel_grafico.PNG)
 
 ## Estrutura do Projeto (Olist)
 📄 `01_desempenho_produtos.sql`: Faturamento por Categoria (Top Categorias).
