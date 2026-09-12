@@ -1,6 +1,32 @@
 # sql-estudos
 Estudos e exercícios práticos de SQL para Análise de Dados utilizando MySQL.
 
+# Olist - E-commerce Analytics
+
+Projeto desenvolvido para extrair inteligência de negócios de um banco de dados relacional e apresentar os resultados em um painel executivo (dashboard).
+
+## 💡 Principais Insights de Negócio
+- **O Paradoxo do Ticket Médio:** SP lidera o faturamento absoluto, mas a Paraíba (PB) possui o maior Ticket Médio do Brasil (R$ 266,60), revelando oportunidades no Nordeste.
+- **Domínio do Cartão de Crédito:** Quase 80% (R$ 15,42 Mi) de todo o faturamento ocorre via cartão de crédito.
+- **Saúde Logística:** A operação possui altíssima confiabilidade, com 96 mil pedidos entregues, esmagando a proporção de cancelamentos.
+
+## 📈 O Dashboard
+![Dashboard da Operação Olist](painel_grafico.png)
+
+## Estrutura do Projeto (Olist)
+📄 `01_desempenho_produtos.sql`: Faturamento por Categoria (Top Categorias).
+📄 `02_faturamento_estado.sql`: Receita Total por Estado (Top 10).
+📄 `03_forma_pagamento.sql`: Representatividade financeira de cada método.
+📄 `04_ticket_medio_estado.sql`: Ticket Médio cruzado por UF.
+📄 `05_dado_operacional.sql`: Volume absoluto de pacotes por status.
+
+## Tecnologias
+- MySQL
+- Power BI (Power Query, Filtros Top N, UX/UI)
+- Git e GitHub
+
+---
+
 # Comércio Fácil
 
 Projeto desenvolvido para praticar SQL durante os estudos de Análise de Dados.
@@ -20,21 +46,16 @@ Projeto desenvolvido para praticar SQL durante os estudos de Análise de Dados.
 
 ## Estrutura
 
-01_create_tables.sql
-
+📄 01_create_tables.sql
 Criação das tabelas.
 
-02_insert_data.sql
-
+📄 02_insert_data.sql
 Carga de dados fictícios.
 
-03_exercicios.sql
-
+📄 03_exercicios.sql
 Resolução dos exercícios propostos.
 
-
-
-
+---
 
 # Clínica Médica
 
@@ -63,16 +84,7 @@ Simular consultas realizadas em uma clínica para praticar consultas SQL aplicad
 
 ## Conceitos SQL praticados
 
-- SELECT
-- WHERE
-- ORDER BY
-- INNER JOIN
-- CASE
-- DISTINCT
-- SUBQUERY
-- NOT IN
-- IN
-- LIKE
+- SELECT, WHERE, ORDER BY, INNER JOIN, CASE, DISTINCT, SUBQUERY, NOT IN, IN, LIKE.
 
 ## Exercícios resolvidos
 
@@ -80,21 +92,6 @@ Simular consultas realizadas em uma clínica para praticar consultas SQL aplicad
 - Médicos sem consultas registradas.
 - Classificação das consultas por faixa de custo.
 - Relatórios utilizando JOIN entre pacientes, médicos e consultas.
-
-## Tecnologias
-
-- MySQL
-- MySQL Workbench
-- Git
-- GitHub
-
----
-
-Projeto desenvolvido durante meus estudos em SQL para formação em Análise de Dados.
-
-
-
-
 
 ## Competências desenvolvidas
 
