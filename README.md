@@ -1,17 +1,19 @@
-# sql-estudos
-Estudos e exercícios práticos de SQL para Análise de Dados utilizando MySQL.
-
 # Olist - E-commerce Analytics
-![Dashboard Executivo Olist](base_olist/Dataset_Olist_Portfolio/Power%20BI/resultado%20final.PNG)
-Projeto desenvolvido para extrair inteligência de negócios de um banco de dados relacional e apresentar os resultados em um painel executivo (dashboard).
+
+Projeto desenvolvido para extrair inteligência de negócios de um banco de dados relacional e apresentar os resultados em painéis executivos (dashboards).
+
+## 📈 Visão Geral de Vendas
+![Visão Geral de Vendas Olist](base_olist/Dataset_Olist_Portfolio/Power%20BI/resultado%20final.PNG)
+
+## 📊 Análise de Top Performers e Logística
+Este segundo painel aprofunda a análise executiva, detalhando o frete médio por região e o ranking de faturamento dos melhores vendedores.
+
+![Dashboard Executivo Olist](base_olist/Dataset_Olist_Portfolio/Power%20BI/dashboard_olist.png)
 
 ## 💡 Principais Insights de Negócio
 - **O Paradoxo do Ticket Médio:** SP lidera o faturamento absoluto, mas a Paraíba (PB) possui o maior Ticket Médio do Brasil (R$ 266,60), revelando oportunidades no Nordeste.
 - **Domínio do Cartão de Crédito:** Quase 80% (R$ 15,42 Mi) de todo o faturamento ocorre via cartão de crédito.
 - **Saúde Logística:** A operação possui altíssima confiabilidade, com 96 mil pedidos entregues, esmagando a proporção de cancelamentos.
-
-## 📈 O Dashboard
-![Dashboard Olist](painel_grafico.PNG)
 
 ## Estrutura do Projeto (Olist)
 📄 `01_desempenho_produtos.sql`: Faturamento por Categoria (Top Categorias).
@@ -22,7 +24,7 @@ Projeto desenvolvido para extrair inteligência de negócios de um banco de dado
 
 ## Tecnologias
 - MySQL
-- Power BI (Power Query, Filtros Top N, UX/UI)
+- Power BI (Power Query, Filtros Top N, UX/UI, DAX)
 - Git e GitHub
 
 ---
