@@ -2,7 +2,7 @@
 Estudos e exercícios práticos de SQL para Análise de Dados utilizando MySQL.
 
 # Olist - E-commerce Analytics
-
+![Dashboard Executivo Olist](base_olist/Dataset_Olist_Portfolio/Power%20BI/resultado%20final.PNG)
 Projeto desenvolvido para extrair inteligência de negócios de um banco de dados relacional e apresentar os resultados em um painel executivo (dashboard).
 
 ## 💡 Principais Insights de Negócio
@@ -101,3 +101,4 @@ Simular consultas realizadas em uma clínica para praticar consultas SQL aplicad
 - Interpretação de problemas de negócio
 - Organização de scripts SQL
 - Versionamento com Git e GitHub
+
